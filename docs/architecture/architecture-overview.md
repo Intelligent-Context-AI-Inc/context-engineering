@@ -70,4 +70,5 @@ For the full set of context engineering design principles, see [Context Engineer
 - [Architecture Diagram](context-engineering-architecture-diagram.md) — Mermaid reference diagram with component explanations
 - [Context Engineering Stack](context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
 - [Stack Diagram](context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the Context Engineering category
+- [Context Capsule Lifecycle](context-capsule-lifecycle.md) — Lifecycle stages from enterprise signals through delivery and observability
 - [Reference Architecture](reference-architecture.md) — Detailed reference architecture with component responsibilities

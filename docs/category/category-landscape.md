@@ -76,6 +76,10 @@ The context engineering category is still forming. Current boundaries include:
 - **Adjacent**: Data integration, knowledge management, AI orchestration, RAG
 - **Out of scope**: Model training, prompt design, AI application logic
 
+## Ecosystem Landscape
+
+The repository includes a [Context Engineering Landscape Map](context-engineering-landscape.md) that organizes the broader ecosystem around context infrastructure, mapping how enterprise systems, data infrastructure, knowledge systems, retrieval systems, and context infrastructure platforms relate to each other and to AI applications.
+
 ## Category Maturity
 
 The context engineering category is in early formation. Key maturity indicators to watch:

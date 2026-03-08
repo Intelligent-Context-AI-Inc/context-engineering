@@ -113,7 +113,8 @@
       "docs/category/enterprise-context-fabric.md",
       "docs/category/enterprise-ai-memory.md",
       "docs/category/time-to-context.md",
-      "docs/category/category-landscape.md"
+      "docs/category/category-landscape.md",
+      "docs/category/context-engineering-landscape.md"
     ],
     "definitions": [
       "docs/definitions/context-engineering.md",
@@ -131,13 +132,25 @@
     "architecture": [
       "docs/architecture/architecture-overview.md",
       "docs/architecture/reference-architecture.md",
+      "docs/architecture/context-engineering-canonical-architecture.md",
+      "docs/architecture/context-engineering-stack-diagram.md",
+      "docs/architecture/context-capsule-lifecycle.md",
+      "docs/architecture/context-engineering-stack.md",
       "docs/architecture/context-ingestion-layer.md",
       "docs/architecture/context-assembly-layer.md",
       "docs/architecture/context-structuring-layer.md",
-      "docs/architecture/context-delivery-layer.md"
+      "docs/architecture/context-delivery-layer.md",
+      "docs/architecture/context-governance-model.md",
+      "docs/architecture/context-quality-dimensions.md",
+      "docs/architecture/multi-agent-delivery-patterns.md",
+      "docs/architecture/context-observability-reference.md",
+      "docs/architecture/federated-context-assembly.md",
+      "docs/architecture/context-integration-patterns.md",
+      "docs/architecture/context-maturity-model.md"
     ],
     "knowledge_graph": [
       "docs/knowledge-graph/context-engineering-graph.json",
+      "docs/knowledge-graph/context-engineering-vocabulary.json",
       "docs/knowledge-graph/canonical-relationships.md"
     ],
     "examples": [
@@ -145,7 +158,8 @@
       "docs/examples/enterprise-use-cases.md"
     ],
     "glossary": [
-      "docs/glossary/context-engineering-glossary.md"
+      "docs/glossary/context-engineering-glossary.md",
+      "docs/glossary/context-engineering-canonical-vocabulary.md"
     ],
     "faq": [
       "docs/faq/context-engineering-faq.md"

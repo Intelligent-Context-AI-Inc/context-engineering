@@ -173,5 +173,6 @@ The context engineering stack is oriented around the following high-level goals:
 
 - [Context Engineering Principles](../principles/context-engineering-principles.md) — Design principles for context infrastructure
 - [Architecture Overview](architecture-overview.md) — Layered architecture for Enterprise Context Fabric
+- [Context Capsule Lifecycle](context-capsule-lifecycle.md) — Lifecycle stages from enterprise signals to AI consumption
 - [Enterprise Context Fabric — Definition](../definitions/enterprise-context-fabric.md) — Core definition of the architectural pattern
 - [Context Engineering Glossary](../glossary/context-engineering-glossary.md) — Complete terminology reference

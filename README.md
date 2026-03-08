@@ -29,6 +29,14 @@ These documents provide a conceptual reference architecture for the context engi
 - [Architecture Diagram](docs/architecture/context-engineering-architecture-diagram.md) — Mermaid reference diagram with component descriptions
 - [Context Engineering Stack](docs/architecture/context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
 - [Stack Diagram](docs/architecture/context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the category
+- [Context Capsule Lifecycle](docs/architecture/context-capsule-lifecycle.md) — Lifecycle stages from enterprise signals to AI consumption
+- [Context Governance Model](docs/architecture/context-governance-model.md) — Governance checkpoints across the context lifecycle
+- [Context Quality Dimensions](docs/architecture/context-quality-dimensions.md) — Framework for evaluating assembled context quality
+- [Multi-Agent Delivery Patterns](docs/architecture/multi-agent-delivery-patterns.md) — Delivery adaptation for different AI consumer types
+- [Context Observability Reference](docs/architecture/context-observability-reference.md) — Monitoring and measurement for context systems
+- [Federated Context Assembly](docs/architecture/federated-context-assembly.md) — Context assembly across organizational boundaries
+- [Context Integration Patterns](docs/architecture/context-integration-patterns.md) — Conceptual patterns for connecting enterprise systems
+- [Context Maturity Model](docs/architecture/context-maturity-model.md) — Progression framework for context infrastructure adoption
 
 ## Specifications
 
@@ -59,7 +67,8 @@ context-engineering
 │   │   ├── context-engineering.md
 │   │   ├── enterprise-ai-memory.md
 │   │   ├── time-to-context.md
-│   │   └── category-landscape.md
+│   │   ├── category-landscape.md
+│   │   └── context-engineering-landscape.md
 │
 │   ├── definitions                        — Core terminology
 │   │   ├── enterprise-context-fabric.md
@@ -84,19 +93,29 @@ context-engineering
 │   │   ├── context-engineering-architecture-diagram.md
 │   │   ├── context-engineering-stack.md
 │   │   ├── context-engineering-stack-diagram.md
+│   │   ├── context-capsule-lifecycle.md
+│   │   ├── context-governance-model.md
+│   │   ├── context-quality-dimensions.md
+│   │   ├── multi-agent-delivery-patterns.md
+│   │   ├── context-observability-reference.md
+│   │   ├── federated-context-assembly.md
+│   │   ├── context-integration-patterns.md
+│   │   ├── context-maturity-model.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md
 │   │   └── context-delivery-layer.md
 │
 │   ├── glossary                           — Terminology reference
-│   │   └── context-engineering-glossary.md
+│   │   ├── context-engineering-glossary.md
+│   │   └── context-engineering-canonical-vocabulary.md
 │
 │   ├── faq                                — Frequently asked questions
 │   │   └── context-engineering-faq.md
 │
 │   ├── knowledge-graph                    — Machine-readable relationships
 │   │   ├── context-engineering-graph.json
+│   │   ├── context-engineering-vocabulary.json
 │   │   └── canonical-relationships.md
 │
 │   ├── examples                           — Example implementations
@@ -109,12 +128,20 @@ context-engineering
 │       └── time-to-context-metric-framework-v0.1.md
 ```
 
+## Canonical Vocabulary
+
+This repository includes a canonical terminology reference to help standardize discussions around Context Engineering and Enterprise Context Fabric architectures. The vocabulary defines core terms, their relationships, and their conceptual meaning in both human-readable and machine-readable formats.
+
+- [Canonical Vocabulary](docs/glossary/context-engineering-canonical-vocabulary.md) — Reference terminology with definitions and concept relationships
+- [Vocabulary JSON](docs/knowledge-graph/context-engineering-vocabulary.json) — Machine-readable semantic vocabulary
+
 ## Resources
 
 - [Overview](docs/overview.md) — Start here for a guided introduction
 - [Glossary](docs/glossary/context-engineering-glossary.md) — Complete terminology reference
 - [FAQ](docs/faq/context-engineering-faq.md) — Frequently asked questions
 - [Category Landscape](docs/category/category-landscape.md) — How context engineering relates to adjacent categories
+- [Context Engineering Landscape](docs/category/context-engineering-landscape.md) — Ecosystem map for context infrastructure in enterprise AI
 - [Knowledge Graph](docs/knowledge-graph/context-engineering-graph.json) — Machine-readable concept relationships
 - [Enterprise Use Cases](docs/examples/enterprise-use-cases.md) — Common enterprise scenarios
 - [AI Index](ai-index.json) — Machine-readable summary of the field

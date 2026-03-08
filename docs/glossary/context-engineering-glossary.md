@@ -2,6 +2,8 @@
 
 A reference glossary of terms used in the context engineering discipline and Enterprise Context Fabric architecture.
 
+For the full canonical vocabulary with definitions, explanations, and concept relationships, see the [Canonical Vocabulary](context-engineering-canonical-vocabulary.md). A machine-readable version is available at [context-engineering-vocabulary.json](../knowledge-graph/context-engineering-vocabulary.json).
+
 ---
 
 **Context Assembly**

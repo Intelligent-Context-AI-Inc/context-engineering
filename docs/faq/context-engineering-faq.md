@@ -28,10 +28,11 @@ Enterprise Context Fabric is an architectural pattern for connecting enterprise 
 
 ### What are the layers of Enterprise Context Fabric?
 
-Enterprise Context Fabric consists of three primary layers:
+Enterprise Context Fabric consists of four primary layers:
 1. **Context Ingestion Layer** — Connects to source systems and extracts signals
-2. **Context Assembly Layer** — Structures and combines signals into context objects
-3. **Context Delivery Layer** — Delivers assembled context to AI systems
+2. **Context Assembly Layer** — Combines signals from multiple sources into context objects
+3. **Context Structuring Layer** — Organizes assembled context into formats optimized for AI consumption
+4. **Context Delivery Layer** — Delivers assembled context to AI systems with governance controls
 
 ### What systems does Enterprise Context Fabric connect to?
 
@@ -83,4 +84,56 @@ Time-to-Context is a performance metric that measures the elapsed time required 
 
 ### How can Time-to-Context be reduced?
 
-Through deterministic context assembly, context caching, parallel ingestion from multiple sources, and pre-assembled Context Capsules optimized for specific use cases.
+**Short answer**: Through deterministic assembly patterns, context caching, parallel ingestion, and pre-assembled Context Capsules.
+
+Implementations may reduce Time-to-Context by pre-defining assembly patterns that specify exactly what signals to gather and from where, eliminating the iteration and uncertainty of ad-hoc retrieval. Parallel ingestion from multiple source systems, caching of recently assembled context within freshness windows, and Enterprise AI Memory for previously assembled context all contribute to reducing overall delivery latency.
+
+---
+
+## Enterprise AI Memory
+
+### What is Enterprise AI Memory?
+
+**Short answer**: Persistent, structured storage of contextual information accessible across sessions, tasks, and workflows.
+
+Enterprise AI Memory provides continuity of knowledge for AI systems operating within an organization. Without it, each AI interaction starts from scratch, requiring context to be assembled from source systems every time. With Enterprise AI Memory, previously assembled context can be retrieved and reused, enabling AI systems to operate with awareness of historical interactions, decisions, and events.
+
+### How does Enterprise AI Memory differ from conversation history?
+
+**Short answer**: Enterprise AI Memory spans across users, sessions, and workflows — not just a single conversation thread.
+
+Conversation history captures the back-and-forth within a single session. Enterprise AI Memory captures the broader organizational context — assembled relationships, entity histories, event timelines, and decision records — that persists independently of any individual conversation. It enables an AI system helping a new team member to access the same organizational context that informed previous interactions with other users.
+
+---
+
+## Architecture and Design
+
+### Why do AI systems need structured context?
+
+**Short answer**: Structured context enables more efficient and accurate AI reasoning than unstructured text blocks.
+
+When context is organized into structured objects with clear entity types, relationships, temporal ordering, and metadata, AI systems can parse and reason about information more effectively. Unstructured context requires the model to spend inference capacity on organizing information before reasoning about it. Structured delivery formats like Context Capsules reduce this overhead, improve consistency across interactions, and enable governance at the field level.
+
+### How does context engineering differ from RAG?
+
+**Short answer**: RAG retrieves documents from a single store using similarity search. Context engineering assembles context across multiple enterprise systems using deterministic patterns.
+
+RAG (Retrieval-Augmented Generation) is a technique that enriches AI prompts with retrieved documents, typically from a vector database. Enterprise Context Fabric extends beyond RAG by assembling context from multiple enterprise systems, using deterministic assembly patterns instead of probabilistic similarity search, embedding governance throughout the lifecycle, and maintaining temporal awareness and cross-session persistence through Enterprise AI Memory. RAG and context engineering are not mutually exclusive — RAG may serve as one retrieval mechanism within a broader context fabric.
+
+### What is the Enterprise Context Bottleneck?
+
+**Short answer**: The gap between the contextual information an AI system needs and the information it actually receives.
+
+As organizations deploy AI systems, they discover that the primary limiting factor is not model capability but context availability. AI systems are asked to reason about organizational situations — customer relationships, project status, incident timelines — where relevant information is distributed across many systems. The enterprise context bottleneck represents this gap and is the core problem that context engineering addresses.
+
+### What is the role of governance in context engineering?
+
+**Short answer**: Governance ensures that context respects access controls, compliance requirements, and organizational policies at every stage of the lifecycle.
+
+Context engineering embeds governance by design rather than applying it as an afterthought. Every piece of context passes through explicit trust boundaries. Signals are classified at ingestion, access controls are enforced during assembly, and delivery is audited and logged. This ensures that AI systems receive only the context they are authorized to access, and that compliance requirements are met throughout the context lifecycle.
+
+### Can Enterprise Context Fabric work alongside existing AI infrastructure?
+
+**Short answer**: Yes. Enterprise Context Fabric is designed to complement existing AI investments, not replace them.
+
+Enterprise Context Fabric sits between enterprise source systems and AI applications. It integrates with existing vector databases, knowledge graphs, and RAG implementations rather than replacing them. Organizations can adopt context engineering incrementally, starting with specific use cases and expanding as their context infrastructure matures.

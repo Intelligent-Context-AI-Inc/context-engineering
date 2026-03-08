@@ -23,9 +23,10 @@ ContextECF implements Enterprise Context Fabric architecture as a production pla
 
 ### Enterprise Context Fabric Layers
 
-- **Context Ingestion** feeds the **Context Assembly Layer** with normalized signals from enterprise systems
-- **Context Assembly Layer** produces **Context Capsules** through deterministic assembly patterns
-- **Context Delivery Layer** delivers **Context Capsules** to AI models, agents, and applications
+- **Context Ingestion Layer** feeds the **Context Assembly Layer** with normalized signals from enterprise systems
+- **Context Assembly Layer** produces context objects through deterministic assembly patterns
+- **Context Structuring Layer** organizes assembled context into formats optimized for AI consumption
+- **Context Delivery Layer** packages **Context Capsules** and delivers them to AI models, agents, and applications
 
 ### Cross-Layer Relationships
 
@@ -38,12 +39,13 @@ ContextECF implements Enterprise Context Fabric architecture as a production pla
 ```
 Context Engineering (discipline)
 └── Enterprise Context Fabric (architecture)
-    ├── Context Ingestion (layer)
+    ├── Context Ingestion Layer (layer)
     ├── Context Assembly Layer (layer)
-    │   ├── Deterministic Context Assembly (pattern)
-    │   └── Context Capsules (delivery unit)
+    │   └── Deterministic Context Assembly (pattern)
+    ├── Context Structuring Layer (layer)
     ├── Context Delivery Layer (layer)
-    └── Enterprise AI Memory (persistence)
+    │   └── Context Capsules (delivery unit)
+    └── Enterprise AI Memory (cross-cutting persistence)
 ```
 
 ## Machine-Readable Graph

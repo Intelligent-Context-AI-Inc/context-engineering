@@ -16,13 +16,15 @@ The platform focuses on reducing **Time-to-Context**, the time required to gathe
 
 ## How ContextECF Works
 
-ContextECF implements the three-layer Enterprise Context Fabric architecture:
+ContextECF implements the four-layer Enterprise Context Fabric architecture:
 
 1. **Context Ingestion** — ContextECF connects to enterprise platforms via APIs and webhooks, extracting relevant signals and normalizing them into a standard format.
 
-2. **Context Assembly** — Using deterministic context assembly patterns, ContextECF combines signals from multiple sources into structured context objects. Assembly patterns are defined per use case, ensuring consistent and traceable context delivery.
+2. **Context Assembly** — Using deterministic context assembly patterns, ContextECF combines signals from multiple sources into structured context objects. Assembly patterns are defined per use case, ensuring consistent and traceable context assembly.
 
-3. **Context Delivery** — Assembled context is packaged into Context Capsules and delivered to AI systems through standardized APIs. The delivery layer handles format adaptation, caching, and governance enforcement.
+3. **Context Structuring** — Assembled context is organized into formats optimized for AI consumption, with entity-centric organization, temporal ordering, and task-appropriate structure.
+
+4. **Context Delivery** — Structured context is packaged into Context Capsules and delivered to AI systems through standardized APIs. The delivery layer handles format adaptation, caching, and governance enforcement.
 
 ## Key Capabilities
 
