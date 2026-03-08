@@ -102,6 +102,12 @@
       "version": "0.1",
       "status": "draft",
       "file": "docs/specs/time-to-context-metric-framework-v0.1.md"
+    },
+    {
+      "name": "Time-to-Context Benchmark Framework",
+      "version": "0.1",
+      "status": "draft",
+      "file": "docs/specs/time-to-context-benchmark-framework.md"
     }
   ],
   "file_index": {
@@ -167,7 +173,8 @@
     "specs": [
       "docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md",
       "docs/specs/conceptual-context-capsule-schema-v0.1.md",
-      "docs/specs/time-to-context-metric-framework-v0.1.md"
+      "docs/specs/time-to-context-metric-framework-v0.1.md",
+      "docs/specs/time-to-context-benchmark-framework.md"
     ]
   }
 }

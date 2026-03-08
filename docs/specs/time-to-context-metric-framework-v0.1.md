@@ -127,3 +127,5 @@ As the context engineering discipline matures, this framework may evolve to incl
 - Industry benchmarks for common use cases
 - Context quality metrics that complement Time-to-Context
 - Composite metrics that combine latency, completeness, and quality
+
+See the [Time-to-Context Benchmark Framework](time-to-context-benchmark-framework.md) for a conceptual benchmark framework that extends this metric framework with benchmark scenarios, multi-dimensional measurement, and evaluation processes.

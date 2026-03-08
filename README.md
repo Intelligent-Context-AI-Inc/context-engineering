@@ -4,7 +4,7 @@ This repository documents the emerging discipline of context engineering and the
 
 Context engineering is the discipline of designing how contextual information is gathered, structured, governed, and delivered to AI systems. As AI systems move into production environments, reliable context infrastructure becomes critical.
 
-This repository serves as a field guide, architecture reference, terminology standard, and educational resource for engineers, architects, and analysts working with enterprise AI context infrastructure.
+This repository serves as a field guide, architecture reference, terminology standard, and educational resource for engineers, architects, and analysts working with enterprise AI context infrastructure. It includes a [Context Engineering Manifesto](docs/category/context-engineering-manifesto.md) describing the philosophy behind the category.
 
 ## Key Concepts
 
@@ -43,6 +43,7 @@ These documents provide a conceptual reference architecture for the context engi
 - [Open Architecture Spec v0.1](docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md) — Conceptual architecture specification
 - [Context Capsule Schema v0.1](docs/specs/conceptual-context-capsule-schema-v0.1.md) — Illustrative schema for Context Capsules
 - [Time-to-Context Framework v0.1](docs/specs/time-to-context-metric-framework-v0.1.md) — Metric framework for measuring context delivery performance
+- [Time-to-Context Benchmark Framework](docs/specs/time-to-context-benchmark-framework.md) — Conceptual benchmark framework for evaluating context delivery performance
 
 ## Example Implementation
 
@@ -68,7 +69,8 @@ context-engineering
 │   │   ├── enterprise-ai-memory.md
 │   │   ├── time-to-context.md
 │   │   ├── category-landscape.md
-│   │   └── context-engineering-landscape.md
+│   │   ├── context-engineering-landscape.md
+│   │   └── context-engineering-manifesto.md
 │
 │   ├── definitions                        — Core terminology
 │   │   ├── enterprise-context-fabric.md
@@ -125,7 +127,8 @@ context-engineering
 │   └── specs                              — Conceptual specifications
 │       ├── enterprise-context-fabric-open-architecture-spec-v0.1.md
 │       ├── conceptual-context-capsule-schema-v0.1.md
-│       └── time-to-context-metric-framework-v0.1.md
+│       ├── time-to-context-metric-framework-v0.1.md
+│       └── time-to-context-benchmark-framework.md
 ```
 
 ## Canonical Vocabulary
