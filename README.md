@@ -29,6 +29,7 @@ These documents provide a conceptual reference architecture for the context engi
 - [Architecture Diagram](docs/architecture/context-engineering-architecture-diagram.md) — Mermaid reference diagram with component descriptions
 - [Context Engineering Stack](docs/architecture/context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
 - [Stack Diagram](docs/architecture/context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the category
+- [Context Capsule Lifecycle](docs/architecture/context-capsule-lifecycle.md) — Lifecycle stages from enterprise signals to AI consumption
 
 ## Specifications
 
@@ -84,6 +85,7 @@ context-engineering
 │   │   ├── context-engineering-architecture-diagram.md
 │   │   ├── context-engineering-stack.md
 │   │   ├── context-engineering-stack-diagram.md
+│   │   ├── context-capsule-lifecycle.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md

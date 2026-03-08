@@ -117,6 +117,26 @@
       "subject": "Enterprise Context Bottleneck",
       "predicate": "increases",
       "object": "Time-to-Context"
+    },
+    {
+      "subject": "Context Engineering",
+      "predicate": "designs",
+      "object": "Context Delivery"
+    },
+    {
+      "subject": "Context Capsules",
+      "predicate": "package",
+      "object": "Structured Context"
+    },
+    {
+      "subject": "Context Engineering",
+      "predicate": "designs",
+      "object": "Context Structuring"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "reduces",
+      "object": "Enterprise Context Bottleneck"
     }
   ]
 }

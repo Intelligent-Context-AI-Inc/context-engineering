@@ -24,7 +24,7 @@ Enterprise Context Fabric addresses these challenges by providing a shared conte
 Enterprise Context Fabric systems typically share several architectural characteristics:
 
 - **Multi-source integration** — Connecting to enterprise platforms such as CRM, communication, project management, and code repository systems
-- **Layered architecture** — Separating ingestion, assembly, and delivery into distinct architectural layers
+- **Layered architecture** — Separating ingestion, assembly, structuring, and delivery into distinct architectural layers
 - **Deterministic assembly** — Using pre-defined patterns for context assembly rather than ad-hoc retrieval
 - **Governance by design** — Embedding access controls, audit trails, and compliance checks into the architecture
 - **Capsule-based delivery** — Packaging assembled context into structured, self-contained units for AI consumption
@@ -47,4 +47,7 @@ Enterprise Context Fabric is an emerging architecture. Early implementations are
 
 - [Enterprise Context Fabric — Definition](../definitions/enterprise-context-fabric.md)
 - [Architecture Overview](../architecture/architecture-overview.md)
+- [Canonical Architecture](../architecture/context-engineering-canonical-architecture.md)
+- [Stack Diagram](../architecture/context-engineering-stack-diagram.md)
+- [Context Capsule Lifecycle](../architecture/context-capsule-lifecycle.md)
 - [Reference Architecture](../architecture/reference-architecture.md)

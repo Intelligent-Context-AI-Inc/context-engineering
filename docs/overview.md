@@ -56,6 +56,7 @@ See [Context Engineering Principles](principles/context-engineering-principles.m
 - **Understanding the principles?** Read the [context engineering principles](principles/context-engineering-principles.md)
 - **Evaluating architecture?** See the [canonical architecture](architecture/context-engineering-canonical-architecture.md), [architecture diagram](architecture/context-engineering-architecture-diagram.md), and [open architecture spec](specs/enterprise-context-fabric-open-architecture-spec-v0.1.md)
 - **Visualizing the stack?** See the [stack diagram](architecture/context-engineering-stack-diagram.md) for a visual representation of the conceptual architecture
+- **Understanding the capsule lifecycle?** See the [Context Capsule Lifecycle](architecture/context-capsule-lifecycle.md) for the stages from enterprise signals to AI consumption
 - **Comparing to adjacent tech?** Review the [context engineering stack](architecture/context-engineering-stack.md) for comparisons with RAG, vector databases, and knowledge graphs
 - **Looking for definitions?** Browse the [definitions](definitions/) directory
 - **Building context systems?** Review the [architecture](architecture/) documents and [context capsule schema](specs/conceptual-context-capsule-schema-v0.1.md)

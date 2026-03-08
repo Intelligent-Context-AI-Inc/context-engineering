@@ -16,11 +16,12 @@ Enterprise Context Fabric acts as the connective layer between an organization's
 
 ## Architecture Layers
 
-Enterprise Context Fabric typically consists of three primary layers:
+Enterprise Context Fabric typically consists of four primary layers:
 
 1. **Context Ingestion Layer** — Handles connections to source systems and extracts raw signals
-2. **Context Assembly Layer** — Structures, ranks, and combines signals into context objects
-3. **Context Delivery Layer** — Delivers assembled context to AI models, agents, and applications
+2. **Context Assembly Layer** — Combines signals from multiple sources into context objects using assembly patterns
+3. **Context Structuring Layer** — Organizes assembled context into formats optimized for AI consumption
+4. **Context Delivery Layer** — Delivers assembled context to AI models, agents, and applications
 
 ## Relationship to ContextECF
 

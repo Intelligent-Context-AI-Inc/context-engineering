@@ -131,6 +131,10 @@
     "architecture": [
       "docs/architecture/architecture-overview.md",
       "docs/architecture/reference-architecture.md",
+      "docs/architecture/context-engineering-canonical-architecture.md",
+      "docs/architecture/context-engineering-stack-diagram.md",
+      "docs/architecture/context-capsule-lifecycle.md",
+      "docs/architecture/context-engineering-stack.md",
       "docs/architecture/context-ingestion-layer.md",
       "docs/architecture/context-assembly-layer.md",
       "docs/architecture/context-structuring-layer.md",

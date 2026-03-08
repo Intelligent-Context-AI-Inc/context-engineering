@@ -82,8 +82,16 @@
       "Context Structuring Layer",
       "Context Delivery Layer"
     ],
+    "cross_cutting": [
+      "Enterprise Context Memory",
+      "Governance",
+      "Observability"
+    ],
     "overview_file": "docs/architecture/architecture-overview.md",
     "reference_file": "docs/architecture/reference-architecture.md",
+    "canonical_architecture_file": "docs/architecture/context-engineering-canonical-architecture.md",
+    "stack_diagram_file": "docs/architecture/context-engineering-stack-diagram.md",
+    "capsule_lifecycle_file": "docs/architecture/context-capsule-lifecycle.md",
     "spec_file": "docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md"
   },
   "specifications": [
