@@ -28,6 +28,7 @@ These documents provide a conceptual reference architecture for the context engi
 - [Canonical Architecture](docs/architecture/context-engineering-canonical-architecture.md) — Six-layer canonical architecture for Enterprise Context Fabric
 - [Architecture Diagram](docs/architecture/context-engineering-architecture-diagram.md) — Mermaid reference diagram with component descriptions
 - [Context Engineering Stack](docs/architecture/context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
+- [Stack Diagram](docs/architecture/context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the category
 
 ## Specifications
 
@@ -82,6 +83,7 @@ context-engineering
 │   │   ├── context-engineering-canonical-architecture.md
 │   │   ├── context-engineering-architecture-diagram.md
 │   │   ├── context-engineering-stack.md
+│   │   ├── context-engineering-stack-diagram.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md

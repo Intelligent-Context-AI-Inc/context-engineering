@@ -69,4 +69,5 @@ For the full set of context engineering design principles, see [Context Engineer
 - [Canonical Architecture](context-engineering-canonical-architecture.md) — Six-layer canonical architecture with detailed layer descriptions
 - [Architecture Diagram](context-engineering-architecture-diagram.md) — Mermaid reference diagram with component explanations
 - [Context Engineering Stack](context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
+- [Stack Diagram](context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the Context Engineering category
 - [Reference Architecture](reference-architecture.md) — Detailed reference architecture with component responsibilities
