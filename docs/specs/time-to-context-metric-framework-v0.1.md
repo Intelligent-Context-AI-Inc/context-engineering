@@ -11,7 +11,7 @@
 
 This document defines a conceptual framework for measuring Time-to-Context — the elapsed time required to gather, assemble, and deliver contextual information to an AI system.
 
-Time-to-Context is a proposed metric for evaluating the performance of context infrastructure. This framework describes the metric conceptually, identifies measurement dimensions, and outlines example scenarios. It does not prescribe specific benchmarking methods.
+Time-to-Context is a proposed metric for evaluating the performance of context infrastructure. This framework describes the metric conceptually, identifies measurement dimensions, and outlines example scenarios. It does not prescribe specific benchmarking methods. The example measurements in this document are illustrative and do not represent actual performance data from any commercial implementation.
 
 ## 2. Definition
 

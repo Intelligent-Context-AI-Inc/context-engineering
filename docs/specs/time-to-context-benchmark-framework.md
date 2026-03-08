@@ -13,7 +13,7 @@ This document describes a conceptual benchmark framework for measuring Time-to-C
 
 The purpose of a benchmark framework is to enable consistent, repeatable evaluation of context infrastructure performance across different implementations, configurations, and use cases.
 
-This framework is conceptual. It does not prescribe specific tooling or mandate particular measurement implementations. Organizations may adapt the framework to their specific environments and requirements.
+This framework is conceptual. It does not prescribe specific tooling or mandate particular measurement implementations. Organizations may adapt the framework to their specific environments and requirements. This document does not disclose proprietary implementation methods, internal optimization routines, or confidential benchmark methodologies used in any commercial implementation.
 
 ---
 

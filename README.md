@@ -112,6 +112,9 @@ context-engineering
 │   │   ├── context-engineering-glossary.md
 │   │   └── context-engineering-canonical-vocabulary.md
 │
+│   ├── ip-boundary-notice.md               — Reusable IP boundary notices
+│   ├── public-docs-guardrails.md           — Public documentation guardrails
+│
 │   ├── faq                                — Frequently asked questions
 │   │   └── context-engineering-faq.md
 │
@@ -157,6 +160,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on contributing to this re
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## IP Boundary Notice
+
+This repository describes conceptual architectures, shared vocabulary, illustrative schemas, and interoperability-oriented patterns. It does not disclose proprietary implementation methods, internal optimization routines, scoring algorithms, threshold logic, or other confidential system designs used in commercial implementations. Nothing in this repository grants rights to any patented or patent-pending implementation of these concepts.
+
+See [IP Boundary Notice](docs/ip-boundary-notice.md) for the full notice and [Public Documentation Guardrails](docs/public-docs-guardrails.md) for contribution guidelines regarding IP protection.
 
 ## About
 

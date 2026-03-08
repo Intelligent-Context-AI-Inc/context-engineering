@@ -40,14 +40,40 @@ If you believe a concept or topic is missing from the repository:
 - Write in a declarative, educational style
 - Use structured sections with clear headings
 
-### IP Protection
+### Public Documentation and IP Protection Guardrails
 
-This repository documents conceptual architectures and shared vocabulary. Contributors should:
+This repository documents conceptual architectures and shared vocabulary. It does not disclose proprietary implementation details. See [Public Documentation Guardrails](docs/public-docs-guardrails.md) for the complete policy.
 
-- Describe capabilities and expected behaviors, not internal algorithms or scoring methods
-- Use phrases like "an implementation may provide…" or "systems typically include…"
-- Avoid disclosing proprietary implementation details of any specific product
-- Clearly distinguish between conceptual architecture, example implementations, and proprietary internals
+**Contributors must not include:**
+
+- Exact formulas, factor weights, or scoring thresholds
+- Internal algorithm names or proprietary subsystem names
+- Specific evaluation criteria or decision logic from commercial implementations
+- Implementation execution flows, retry mechanics, or orchestration internals
+- Confidential benchmark methodology or production performance data
+- Patent-sensitive embodiment details or implementation specifics
+- Internal codenames or coined moat terms that are not explicitly approved for public use
+
+**Contributors should favor:**
+
+- Conceptual diagrams over internal system topology
+- Illustrative schemas over production data models
+- Open interfaces and interoperability language
+- Neutral, industry-legible terminology
+- Phrases like "an implementation may provide…", "systems typically include…", or "architectures may support…"
+- Clear distinction between conceptual architecture and proprietary implementation
+
+**PR Checklist for Public Docs:**
+
+Before submitting a pull request that adds or modifies documentation, verify:
+
+1. Does this teach the category without teaching the secret sauce?
+2. Does this describe concepts rather than implementation recipes?
+3. Does this avoid formulas, thresholds, weights, and exact decision logic?
+4. Does this avoid internal codenames and patent-sensitive terms?
+5. Does this preserve interoperability and open-spec value?
+6. Does this avoid exact benchmark or performance claims unless explicitly approved?
+7. Would a competitor be materially closer to reproducing the moat after reading this? If yes, rewrite at a higher level before merging.
 
 ### Formatting
 

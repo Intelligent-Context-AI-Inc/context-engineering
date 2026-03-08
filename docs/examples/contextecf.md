@@ -43,4 +43,4 @@ ContextECF implements the four-layer Enterprise Context Fabric architecture:
 
 ## About
 
-ContextECF is developed by Intelligent Context AI, Inc. It represents a production implementation of the Enterprise Context Fabric architecture and context engineering principles documented in this repository.
+ContextECF is developed by Intelligent Context AI, Inc. It is an example implementation of the Enterprise Context Fabric architecture and context engineering principles described in this repository. This repository documents the conceptual architecture and shared vocabulary; it does not disclose the proprietary implementation details, optimization methods, or internal system designs used in ContextECF or any other commercial product.

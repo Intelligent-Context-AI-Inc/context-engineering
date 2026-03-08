@@ -68,11 +68,11 @@ By using pre-defined assembly patterns, the system knows exactly what signals to
 
 ### What is ContextECF?
 
-ContextECF is an implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. It is a production platform for enterprise context assembly and delivery.
+ContextECF is an example implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. It is a commercial platform for enterprise context assembly and delivery.
 
 ### What is the relationship between ContextECF and Enterprise Context Fabric?
 
-Enterprise Context Fabric is the architectural pattern. ContextECF is a specific platform that implements that architecture. ContextECF is to Enterprise Context Fabric as a specific database product is to the relational database model.
+Enterprise Context Fabric is the conceptual architectural pattern. ContextECF is one platform that implements that architecture. The relationship is analogous to the relational database model (concept) versus a specific database product (implementation). This repository documents the conceptual architecture; it does not disclose the proprietary implementation details of ContextECF or any other commercial product.
 
 ---
 

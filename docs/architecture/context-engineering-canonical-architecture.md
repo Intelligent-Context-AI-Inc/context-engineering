@@ -2,7 +2,7 @@
 
 This document describes the canonical logical architecture of a context engineering system. It defines the layers, their responsibilities, and the flow of context from enterprise source systems to AI consumers.
 
-This is a conceptual architecture. It describes logical capabilities and responsibilities, not internal implementation details.
+This is a conceptual architecture. It describes logical capabilities and responsibilities, not internal implementation details of any commercial product. Nothing in this document discloses proprietary algorithms, scoring methods, or other confidential system designs.
 
 ---
 
