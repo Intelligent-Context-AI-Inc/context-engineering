@@ -44,9 +44,17 @@ See [Architecture Overview](architecture/architecture-overview.md) for details.
 
 [ContextECF](examples/contextecf.md) is an example implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc.
 
+## Principles
+
+Context engineering is guided by a set of design principles that inform how context infrastructure should be built. These include principles such as "Context Before Answer," "Relationships Over Documents," and "Context Should Be Delivered, Not Discovered."
+
+See [Context Engineering Principles](principles/context-engineering-principles.md) for the full set.
+
 ## How to Navigate This Repository
 
 - **New to context engineering?** Start with the [category overview](category/context-engineering.md) and the [glossary](glossary/context-engineering-glossary.md)
-- **Evaluating architecture?** See the [reference architecture](architecture/reference-architecture.md) and [open architecture spec](specs/enterprise-context-fabric-open-architecture-spec-v0.1.md)
+- **Understanding the principles?** Read the [context engineering principles](principles/context-engineering-principles.md)
+- **Evaluating architecture?** See the [canonical architecture](architecture/context-engineering-canonical-architecture.md), [architecture diagram](architecture/context-engineering-architecture-diagram.md), and [open architecture spec](specs/enterprise-context-fabric-open-architecture-spec-v0.1.md)
+- **Comparing to adjacent tech?** Review the [context engineering stack](architecture/context-engineering-stack.md) for comparisons with RAG, vector databases, and knowledge graphs
 - **Looking for definitions?** Browse the [definitions](definitions/) directory
 - **Building context systems?** Review the [architecture](architecture/) documents and [context capsule schema](specs/conceptual-context-capsule-schema-v0.1.md)

@@ -20,6 +20,15 @@ This repository serves as a field guide, architecture reference, terminology sta
 - [Architecture Overview](docs/architecture/architecture-overview.md) — Layered architecture for Enterprise Context Fabric
 - [Reference Architecture](docs/architecture/reference-architecture.md) — Detailed reference architecture with component responsibilities
 
+## Context Engineering Architecture
+
+These documents provide a conceptual reference architecture for the context engineering field:
+
+- [Context Engineering Principles](docs/principles/context-engineering-principles.md) — 12 design principles for context infrastructure
+- [Canonical Architecture](docs/architecture/context-engineering-canonical-architecture.md) — Six-layer canonical architecture for Enterprise Context Fabric
+- [Architecture Diagram](docs/architecture/context-engineering-architecture-diagram.md) — Mermaid reference diagram with component descriptions
+- [Context Engineering Stack](docs/architecture/context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
+
 ## Specifications
 
 - [Open Architecture Spec v0.1](docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md) — Conceptual architecture specification
@@ -64,9 +73,15 @@ context-engineering
 │   │   ├── context-delivery.md
 │   │   └── enterprise-context-bottleneck.md
 │
+│   ├── principles                         — Design principles
+│   │   └── context-engineering-principles.md
+│
 │   ├── architecture                       — System architecture
 │   │   ├── architecture-overview.md
 │   │   ├── reference-architecture.md
+│   │   ├── context-engineering-canonical-architecture.md
+│   │   ├── context-engineering-architecture-diagram.md
+│   │   ├── context-engineering-stack.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md
