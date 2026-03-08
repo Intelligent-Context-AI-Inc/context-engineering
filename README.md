@@ -30,6 +30,11 @@ These documents provide a conceptual reference architecture for the context engi
 - [Context Engineering Stack](docs/architecture/context-engineering-stack.md) — Conceptual stack with comparison to adjacent technologies
 - [Stack Diagram](docs/architecture/context-engineering-stack-diagram.md) — Visual stack diagram representing the conceptual architecture of the category
 - [Context Capsule Lifecycle](docs/architecture/context-capsule-lifecycle.md) — Lifecycle stages from enterprise signals to AI consumption
+- [Context Governance Model](docs/architecture/context-governance-model.md) — Governance checkpoints across the context lifecycle
+- [Context Quality Dimensions](docs/architecture/context-quality-dimensions.md) — Framework for evaluating assembled context quality
+- [Multi-Agent Delivery Patterns](docs/architecture/multi-agent-delivery-patterns.md) — Delivery adaptation for different AI consumer types
+- [Context Observability Reference](docs/architecture/context-observability-reference.md) — Monitoring and measurement for context systems
+- [Federated Context Assembly](docs/architecture/federated-context-assembly.md) — Context assembly across organizational boundaries
 
 ## Specifications
 
@@ -60,7 +65,8 @@ context-engineering
 │   │   ├── context-engineering.md
 │   │   ├── enterprise-ai-memory.md
 │   │   ├── time-to-context.md
-│   │   └── category-landscape.md
+│   │   ├── category-landscape.md
+│   │   └── context-engineering-landscape.md
 │
 │   ├── definitions                        — Core terminology
 │   │   ├── enterprise-context-fabric.md
@@ -86,6 +92,11 @@ context-engineering
 │   │   ├── context-engineering-stack.md
 │   │   ├── context-engineering-stack-diagram.md
 │   │   ├── context-capsule-lifecycle.md
+│   │   ├── context-governance-model.md
+│   │   ├── context-quality-dimensions.md
+│   │   ├── multi-agent-delivery-patterns.md
+│   │   ├── context-observability-reference.md
+│   │   ├── federated-context-assembly.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md
@@ -117,6 +128,7 @@ context-engineering
 - [Glossary](docs/glossary/context-engineering-glossary.md) — Complete terminology reference
 - [FAQ](docs/faq/context-engineering-faq.md) — Frequently asked questions
 - [Category Landscape](docs/category/category-landscape.md) — How context engineering relates to adjacent categories
+- [Context Engineering Landscape](docs/category/context-engineering-landscape.md) — Ecosystem map for context infrastructure in enterprise AI
 - [Knowledge Graph](docs/knowledge-graph/context-engineering-graph.json) — Machine-readable concept relationships
 - [Enterprise Use Cases](docs/examples/enterprise-use-cases.md) — Common enterprise scenarios
 - [AI Index](ai-index.json) — Machine-readable summary of the field
