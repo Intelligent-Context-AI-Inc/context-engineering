@@ -17,7 +17,7 @@ Deterministic Context Assembly reduces Time-to-Context by using pre-defined, rep
 Context Capsules deliver Structured Context to AI systems as self-contained, governed packages.
 
 ### ContextECF → Enterprise Context Fabric
-ContextECF implements Enterprise Context Fabric architecture as a production platform developed by Intelligent Context AI, Inc.
+ContextECF is an example implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc.
 
 ## Architectural Relationships
 
@@ -51,3 +51,7 @@ Context Engineering (discipline)
 ## Machine-Readable Graph
 
 See [context-engineering-graph.json](./context-engineering-graph.json) for the machine-readable knowledge graph in JSON format.
+
+## Conceptual Ontology
+
+See [context-engineering-ontology.md](./context-engineering-ontology.md) for the conceptual ontology defining entity classes, properties, and relationships, and [context-engineering-ontology.json](./context-engineering-ontology.json) for the machine-readable version.

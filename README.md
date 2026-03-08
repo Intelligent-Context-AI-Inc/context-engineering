@@ -121,6 +121,8 @@ context-engineering
 │   ├── knowledge-graph                    — Machine-readable relationships
 │   │   ├── context-engineering-graph.json
 │   │   ├── context-engineering-vocabulary.json
+│   │   ├── context-engineering-ontology.json
+│   │   ├── context-engineering-ontology.md
 │   │   └── canonical-relationships.md
 │
 │   ├── examples                           — Example implementations

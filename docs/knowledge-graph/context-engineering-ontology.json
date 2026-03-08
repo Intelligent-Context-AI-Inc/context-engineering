@@ -1,0 +1,305 @@
+{
+  "ontology": "Context Engineering Ontology",
+  "version": "1.0.0",
+  "maintainer": "Intelligent Context AI, Inc.",
+  "last_updated": "2026-03-08",
+  "description": "A conceptual ontology for the context engineering discipline. Defines entity classes, properties, and relationships at the category level. This ontology does not disclose proprietary implementation details.",
+  "classes": [
+    {
+      "id": "Discipline",
+      "label": "Discipline",
+      "description": "A field of study and practice concerned with a specific domain of engineering or design.",
+      "instances": ["Context Engineering"]
+    },
+    {
+      "id": "Architecture",
+      "label": "Architecture",
+      "description": "A conceptual blueprint defining the logical structure, layers, and component responsibilities of a system.",
+      "instances": ["Enterprise Context Fabric", "Context Infrastructure"]
+    },
+    {
+      "id": "ArchitecturalLayer",
+      "label": "Architectural Layer",
+      "description": "A logical tier within an architecture that encapsulates a specific set of responsibilities.",
+      "instances": ["Context Ingestion Layer", "Context Assembly Layer", "Context Structuring Layer", "Context Delivery Layer"]
+    },
+    {
+      "id": "LifecycleStage",
+      "label": "Lifecycle Stage",
+      "description": "A phase in the lifecycle of contextual information as it moves from source systems to AI consumers.",
+      "instances": ["Context Ingestion", "Context Assembly", "Context Structuring", "Context Delivery"]
+    },
+    {
+      "id": "ContextObject",
+      "label": "Context Object",
+      "description": "A structured unit of contextual information at a specific stage of the lifecycle.",
+      "instances": ["Enterprise Signal", "Structured Context", "Context Capsule", "Context Relationship"]
+    },
+    {
+      "id": "Pattern",
+      "label": "Pattern",
+      "description": "A repeatable approach or method for performing a context engineering operation.",
+      "instances": ["Assembly Pattern", "Deterministic Context Assembly"]
+    },
+    {
+      "id": "Metric",
+      "label": "Metric",
+      "description": "A measurable indicator of context infrastructure performance or quality.",
+      "instances": ["Time-to-Context", "Context Freshness Score"]
+    },
+    {
+      "id": "CrossCutting",
+      "label": "Cross-Cutting Concern",
+      "description": "A capability or concern that spans multiple architectural layers.",
+      "instances": ["Context Governance", "Enterprise AI Memory", "Context Observability"]
+    },
+    {
+      "id": "Problem",
+      "label": "Problem",
+      "description": "A challenge or gap that the discipline seeks to address.",
+      "instances": ["Enterprise Context Bottleneck"]
+    },
+    {
+      "id": "Interface",
+      "label": "Interface",
+      "description": "A boundary through which context is exchanged between systems or layers.",
+      "instances": ["Context Delivery Interface", "Agentic Context Protocol"]
+    },
+    {
+      "id": "Concept",
+      "label": "Concept",
+      "description": "A supporting concept within the context engineering domain.",
+      "instances": ["Freshness Window", "Source System", "Context Window Budget", "Context Composition", "Context Provenance Chain", "Context Replay", "Cross-Tenant Context Isolation"]
+    },
+    {
+      "id": "Implementation",
+      "label": "Implementation",
+      "description": "A specific product or system that implements the conceptual architecture.",
+      "instances": ["ContextECF"]
+    }
+  ],
+  "properties": [
+    {
+      "id": "hasLayer",
+      "domain": "Architecture",
+      "range": "ArchitecturalLayer",
+      "description": "An architecture contains an architectural layer."
+    },
+    {
+      "id": "hasStage",
+      "domain": "LifecycleStage",
+      "range": "LifecycleStage",
+      "description": "A lifecycle stage feeds into a subsequent stage."
+    },
+    {
+      "id": "produces",
+      "domain": "LifecycleStage",
+      "range": "ContextObject",
+      "description": "A lifecycle stage produces a context object."
+    },
+    {
+      "id": "consumes",
+      "domain": "LifecycleStage",
+      "range": "ContextObject",
+      "description": "A lifecycle stage consumes a context object."
+    },
+    {
+      "id": "addresses",
+      "domain": "Architecture",
+      "range": "Problem",
+      "description": "An architecture addresses a problem."
+    },
+    {
+      "id": "measures",
+      "domain": "Metric",
+      "range": "Architecture",
+      "description": "A metric measures the performance of an architecture."
+    },
+    {
+      "id": "governs",
+      "domain": "CrossCutting",
+      "range": "ArchitecturalLayer",
+      "description": "A cross-cutting concern applies governance across layers."
+    },
+    {
+      "id": "implements",
+      "domain": "Implementation",
+      "range": "Architecture",
+      "description": "An implementation realizes a conceptual architecture."
+    },
+    {
+      "id": "usesPattern",
+      "domain": "LifecycleStage",
+      "range": "Pattern",
+      "description": "A lifecycle stage uses a pattern to perform its operations."
+    },
+    {
+      "id": "deliversVia",
+      "domain": "ArchitecturalLayer",
+      "range": "Interface",
+      "description": "An architectural layer delivers context through an interface."
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "Context Engineering",
+      "predicate": "defines",
+      "object": "Enterprise Context Fabric"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "hasLayer",
+      "object": "Context Ingestion Layer"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "hasLayer",
+      "object": "Context Assembly Layer"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "hasLayer",
+      "object": "Context Structuring Layer"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "hasLayer",
+      "object": "Context Delivery Layer"
+    },
+    {
+      "subject": "Context Ingestion Layer",
+      "predicate": "hasStage",
+      "object": "Context Ingestion"
+    },
+    {
+      "subject": "Context Assembly Layer",
+      "predicate": "hasStage",
+      "object": "Context Assembly"
+    },
+    {
+      "subject": "Context Structuring Layer",
+      "predicate": "hasStage",
+      "object": "Context Structuring"
+    },
+    {
+      "subject": "Context Delivery Layer",
+      "predicate": "hasStage",
+      "object": "Context Delivery"
+    },
+    {
+      "subject": "Context Ingestion",
+      "predicate": "produces",
+      "object": "Enterprise Signal"
+    },
+    {
+      "subject": "Context Assembly",
+      "predicate": "consumes",
+      "object": "Enterprise Signal"
+    },
+    {
+      "subject": "Context Assembly",
+      "predicate": "produces",
+      "object": "Structured Context"
+    },
+    {
+      "subject": "Context Assembly",
+      "predicate": "usesPattern",
+      "object": "Assembly Pattern"
+    },
+    {
+      "subject": "Context Assembly",
+      "predicate": "usesPattern",
+      "object": "Deterministic Context Assembly"
+    },
+    {
+      "subject": "Context Structuring",
+      "predicate": "consumes",
+      "object": "Structured Context"
+    },
+    {
+      "subject": "Context Delivery",
+      "predicate": "produces",
+      "object": "Context Capsule"
+    },
+    {
+      "subject": "Context Delivery Layer",
+      "predicate": "deliversVia",
+      "object": "Context Delivery Interface"
+    },
+    {
+      "subject": "Enterprise Context Fabric",
+      "predicate": "addresses",
+      "object": "Enterprise Context Bottleneck"
+    },
+    {
+      "subject": "Time-to-Context",
+      "predicate": "measures",
+      "object": "Enterprise Context Fabric"
+    },
+    {
+      "subject": "Context Governance",
+      "predicate": "governs",
+      "object": "Context Ingestion Layer"
+    },
+    {
+      "subject": "Context Governance",
+      "predicate": "governs",
+      "object": "Context Assembly Layer"
+    },
+    {
+      "subject": "Context Governance",
+      "predicate": "governs",
+      "object": "Context Structuring Layer"
+    },
+    {
+      "subject": "Context Governance",
+      "predicate": "governs",
+      "object": "Context Delivery Layer"
+    },
+    {
+      "subject": "Enterprise AI Memory",
+      "predicate": "persists",
+      "object": "Structured Context"
+    },
+    {
+      "subject": "ContextECF",
+      "predicate": "implements",
+      "object": "Enterprise Context Fabric"
+    },
+    {
+      "subject": "Agentic Context Protocol",
+      "predicate": "extends",
+      "object": "Context Delivery Interface"
+    },
+    {
+      "subject": "Context Provenance Chain",
+      "predicate": "supports",
+      "object": "Context Governance"
+    },
+    {
+      "subject": "Cross-Tenant Context Isolation",
+      "predicate": "enforces",
+      "object": "Context Governance"
+    },
+    {
+      "subject": "Context Replay",
+      "predicate": "supports",
+      "object": "Context Provenance Chain"
+    },
+    {
+      "subject": "Context Freshness Score",
+      "predicate": "quantifies",
+      "object": "Freshness Window"
+    },
+    {
+      "subject": "Context Composition",
+      "predicate": "combines",
+      "object": "Context Capsule"
+    },
+    {
+      "subject": "Context Window Budget",
+      "predicate": "constrains",
+      "object": "Context Delivery"
+    }
+  ]
+}

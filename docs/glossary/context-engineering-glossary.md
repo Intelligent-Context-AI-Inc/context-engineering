@@ -34,7 +34,7 @@ The process of connecting to enterprise source systems and extracting raw signal
 The process of prioritizing signals based on relevance, recency, and importance to a specific task or query.
 
 **ContextECF**
-An implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. A production platform for enterprise context assembly and delivery.
+An example implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. A commercial platform for enterprise context assembly and delivery.
 
 **Deterministic Context Assembly**
 The practice of assembling context using pre-defined, repeatable patterns rather than probabilistic retrieval methods. Ensures predictability, traceability, and governance by design.

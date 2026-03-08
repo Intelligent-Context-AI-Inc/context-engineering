@@ -64,4 +64,5 @@ See [Context Engineering Principles](principles/context-engineering-principles.m
 - **Comparing to adjacent tech?** Review the [context engineering stack](architecture/context-engineering-stack.md) for comparisons with RAG, vector databases, and knowledge graphs
 - **Assessing maturity?** See the [Context Maturity Model](architecture/context-maturity-model.md) for a progression framework from ad-hoc retrieval to federated enterprise context
 - **Looking for definitions?** Browse the [definitions](definitions/) directory or the [canonical vocabulary](glossary/context-engineering-canonical-vocabulary.md)
+- **Exploring the ontology?** See the [Context Engineering Ontology](knowledge-graph/context-engineering-ontology.md) for entity classes, properties, and domain relationships
 - **Building context systems?** Review the [architecture](architecture/) documents and [context capsule schema](specs/conceptual-context-capsule-schema-v0.1.md)
