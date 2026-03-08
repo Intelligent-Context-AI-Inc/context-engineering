@@ -35,6 +35,8 @@ These documents provide a conceptual reference architecture for the context engi
 - [Multi-Agent Delivery Patterns](docs/architecture/multi-agent-delivery-patterns.md) — Delivery adaptation for different AI consumer types
 - [Context Observability Reference](docs/architecture/context-observability-reference.md) — Monitoring and measurement for context systems
 - [Federated Context Assembly](docs/architecture/federated-context-assembly.md) — Context assembly across organizational boundaries
+- [Context Integration Patterns](docs/architecture/context-integration-patterns.md) — Conceptual patterns for connecting enterprise systems
+- [Context Maturity Model](docs/architecture/context-maturity-model.md) — Progression framework for context infrastructure adoption
 
 ## Specifications
 
@@ -97,19 +99,23 @@ context-engineering
 │   │   ├── multi-agent-delivery-patterns.md
 │   │   ├── context-observability-reference.md
 │   │   ├── federated-context-assembly.md
+│   │   ├── context-integration-patterns.md
+│   │   ├── context-maturity-model.md
 │   │   ├── context-ingestion-layer.md
 │   │   ├── context-assembly-layer.md
 │   │   ├── context-structuring-layer.md
 │   │   └── context-delivery-layer.md
 │
 │   ├── glossary                           — Terminology reference
-│   │   └── context-engineering-glossary.md
+│   │   ├── context-engineering-glossary.md
+│   │   └── context-engineering-canonical-vocabulary.md
 │
 │   ├── faq                                — Frequently asked questions
 │   │   └── context-engineering-faq.md
 │
 │   ├── knowledge-graph                    — Machine-readable relationships
 │   │   ├── context-engineering-graph.json
+│   │   ├── context-engineering-vocabulary.json
 │   │   └── canonical-relationships.md
 │
 │   ├── examples                           — Example implementations
@@ -121,6 +127,13 @@ context-engineering
 │       ├── conceptual-context-capsule-schema-v0.1.md
 │       └── time-to-context-metric-framework-v0.1.md
 ```
+
+## Canonical Vocabulary
+
+This repository includes a canonical terminology reference to help standardize discussions around Context Engineering and Enterprise Context Fabric architectures. The vocabulary defines core terms, their relationships, and their conceptual meaning in both human-readable and machine-readable formats.
+
+- [Canonical Vocabulary](docs/glossary/context-engineering-canonical-vocabulary.md) — Reference terminology with definitions and concept relationships
+- [Vocabulary JSON](docs/knowledge-graph/context-engineering-vocabulary.json) — Machine-readable semantic vocabulary
 
 ## Resources
 

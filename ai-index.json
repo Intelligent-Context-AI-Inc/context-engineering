@@ -117,6 +117,10 @@
     "faq": "docs/faq/context-engineering-faq.md",
     "knowledge_graph": "docs/knowledge-graph/context-engineering-graph.json",
     "category_landscape": "docs/category/category-landscape.md",
+    "canonical_vocabulary": "docs/glossary/context-engineering-canonical-vocabulary.md",
+    "vocabulary_json": "docs/knowledge-graph/context-engineering-vocabulary.json",
+    "integration_patterns": "docs/architecture/context-integration-patterns.md",
+    "maturity_model": "docs/architecture/context-maturity-model.md",
     "use_cases": "docs/examples/enterprise-use-cases.md"
   }
 }
