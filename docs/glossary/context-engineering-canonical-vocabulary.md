@@ -240,6 +240,80 @@ Source systems are the operational platforms where enterprise work happens. They
 
 ---
 
+## Emerging Terms
+
+The following terms represent concepts that are emerging as the context engineering category matures. They are included here to establish early definitions and support consistent usage as the discipline evolves.
+
+### Context Window Budget
+
+**Definition**: The allocation of AI model context window capacity across different types of input — instructions, retrieved documents, assembled context, and conversation history.
+
+Context window budget recognizes that AI models have finite context windows and that not all available context can be delivered simultaneously. Context infrastructure may need to prioritize, compress, or summarize assembled context to fit within the consuming model's capacity. Budget allocation decisions affect which signals are included in a delivery and at what level of detail.
+
+**Related terms**: Context Delivery, Context Capsule, Context Structuring
+
+---
+
+### Context Composition
+
+**Definition**: The process of combining multiple Context Capsules into a unified context delivery for complex, multi-domain tasks.
+
+Some tasks require context from multiple assembly patterns — a strategic account review may need customer context, engineering context, and financial context assembled separately and then composed into a single delivery. Context composition defines how independently assembled capsules are merged, deduplicated, and organized for unified consumption.
+
+**Related terms**: Context Capsule, Context Structuring, Context Delivery, Assembly Pattern
+
+---
+
+### Context Provenance Chain
+
+**Definition**: The full traceability path of a signal from its origin in a source system through ingestion, assembly, structuring, and delivery to an AI consumer.
+
+Provenance chains support audit, compliance, and debugging by documenting every transformation a signal undergoes throughout the context lifecycle. A complete provenance chain records the source system, ingestion timestamp, normalization steps, assembly pattern, governance checks applied, and delivery destination for each element of assembled context.
+
+**Related terms**: Context Governance, Context Capsule, Enterprise Signal, Context Ingestion
+
+---
+
+### Context Freshness Score
+
+**Definition**: A quantified measure of how current assembled context is relative to the latest state of its contributing source systems.
+
+While freshness windows define binary validity (fresh or stale), a freshness score provides a continuous measure of how recently each signal in a context object was ingested. This enables delivery systems to communicate confidence in context currency and allows consumers to factor freshness into their reasoning.
+
+**Related terms**: Freshness Window, Time-to-Context, Context Quality, Context Delivery
+
+---
+
+### Agentic Context Protocol
+
+**Definition**: A standardized interface pattern for autonomous AI agents to request and receive incremental context during multi-step task execution.
+
+As AI agents perform complex, multi-step tasks, their context needs evolve with each step. An agentic context protocol defines how agents request additional context mid-execution, how the delivery layer responds with scoped incremental updates, and how context accumulation is managed across the agent's task lifecycle.
+
+**Related terms**: Context Delivery Interface, Context Delivery, Enterprise AI Memory, Context Capsule
+
+---
+
+### Cross-Tenant Context Isolation
+
+**Definition**: Governance mechanisms ensuring that context assembled for one organizational tenant cannot be accessed by or leaked to another tenant within a shared context infrastructure deployment.
+
+In multi-tenant deployments, context isolation prevents cross-contamination of assembled context between tenants. Isolation must be enforced at every layer — ingestion, assembly, memory, and delivery — to ensure that one tenant's signals, assembled context, and delivery history are invisible to other tenants.
+
+**Related terms**: Context Governance, Enterprise Context Fabric, Enterprise AI Memory, Context Delivery
+
+---
+
+### Context Replay
+
+**Definition**: The ability to reconstruct the exact context that was delivered for a past interaction, supporting audit, debugging, and compliance review.
+
+Context replay enables operators to answer the question "what context did the AI system have when it made this decision?" By preserving delivery records, capsule snapshots, and provenance metadata, implementations can reconstruct the precise context state at any historical delivery point. This is essential for regulated environments and for debugging unexpected AI behavior.
+
+**Related terms**: Context Provenance Chain, Context Governance, Enterprise AI Memory, Context Capsule
+
+---
+
 ## Concept Relationships
 
 The following relationships describe how major vocabulary terms connect to each other:
@@ -261,6 +335,13 @@ The following relationships describe how major vocabulary terms connect to each 
 | Deterministic Context Assembly | enables | Context Governance |
 | Context Governance | spans | Enterprise Context Fabric |
 | ContextECF | example_of | Enterprise Context Fabric |
+| Context Window Budget | constrains | Context Delivery |
+| Context Composition | combines | Context Capsules |
+| Context Provenance Chain | supports | Context Governance |
+| Context Freshness Score | quantifies | Freshness Window |
+| Agentic Context Protocol | extends | Context Delivery Interface |
+| Cross-Tenant Context Isolation | enforces | Context Governance |
+| Context Replay | enables | Context Provenance Chain |
 
 ---
 

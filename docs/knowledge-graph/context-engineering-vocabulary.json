@@ -238,6 +238,81 @@
         "Context Engineering",
         "Time-to-Context"
       ]
+    },
+    {
+      "name": "Context Window Budget",
+      "type": "emerging",
+      "definition": "The allocation of AI model context window capacity across different types of input — instructions, retrieved documents, assembled context, and conversation history.",
+      "related": [
+        "Context Delivery",
+        "Context Capsule",
+        "Context Structuring"
+      ]
+    },
+    {
+      "name": "Context Composition",
+      "type": "emerging",
+      "definition": "The process of combining multiple Context Capsules into a unified context delivery for complex, multi-domain tasks.",
+      "related": [
+        "Context Capsule",
+        "Context Structuring",
+        "Context Delivery",
+        "Assembly Pattern"
+      ]
+    },
+    {
+      "name": "Context Provenance Chain",
+      "type": "emerging",
+      "definition": "The full traceability path of a signal from its origin in a source system through ingestion, assembly, structuring, and delivery to an AI consumer.",
+      "related": [
+        "Context Governance",
+        "Context Capsule",
+        "Enterprise Signal",
+        "Context Ingestion"
+      ]
+    },
+    {
+      "name": "Context Freshness Score",
+      "type": "emerging",
+      "definition": "A quantified measure of how current assembled context is relative to the latest state of its contributing source systems.",
+      "related": [
+        "Freshness Window",
+        "Time-to-Context",
+        "Context Delivery"
+      ]
+    },
+    {
+      "name": "Agentic Context Protocol",
+      "type": "emerging",
+      "definition": "A standardized interface pattern for autonomous AI agents to request and receive incremental context during multi-step task execution.",
+      "related": [
+        "Context Delivery Interface",
+        "Context Delivery",
+        "Enterprise AI Memory",
+        "Context Capsule"
+      ]
+    },
+    {
+      "name": "Cross-Tenant Context Isolation",
+      "type": "emerging",
+      "definition": "Governance mechanisms ensuring that context assembled for one organizational tenant cannot be accessed by or leaked to another tenant within a shared context infrastructure deployment.",
+      "related": [
+        "Context Governance",
+        "Enterprise Context Fabric",
+        "Enterprise AI Memory",
+        "Context Delivery"
+      ]
+    },
+    {
+      "name": "Context Replay",
+      "type": "emerging",
+      "definition": "The ability to reconstruct the exact context that was delivered for a past interaction, supporting audit, debugging, and compliance review.",
+      "related": [
+        "Context Provenance Chain",
+        "Context Governance",
+        "Enterprise AI Memory",
+        "Context Capsule"
+      ]
     }
   ],
   "relationships": [
@@ -330,6 +405,41 @@
       "subject": "Enterprise Context Fabric",
       "predicate": "reduces",
       "object": "Time-to-Context"
+    },
+    {
+      "subject": "Context Window Budget",
+      "predicate": "constrains",
+      "object": "Context Delivery"
+    },
+    {
+      "subject": "Context Composition",
+      "predicate": "combines",
+      "object": "Context Capsules"
+    },
+    {
+      "subject": "Context Provenance Chain",
+      "predicate": "supports",
+      "object": "Context Governance"
+    },
+    {
+      "subject": "Context Freshness Score",
+      "predicate": "quantifies",
+      "object": "Freshness Window"
+    },
+    {
+      "subject": "Agentic Context Protocol",
+      "predicate": "extends",
+      "object": "Context Delivery Interface"
+    },
+    {
+      "subject": "Cross-Tenant Context Isolation",
+      "predicate": "enforces",
+      "object": "Context Governance"
+    },
+    {
+      "subject": "Context Replay",
+      "predicate": "enables",
+      "object": "Context Provenance Chain"
     }
   ]
 }
