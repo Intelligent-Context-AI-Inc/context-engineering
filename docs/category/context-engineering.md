@@ -45,8 +45,13 @@ Organizations working in the context engineering space typically include:
 - Enterprise integration platform vendors
 - Organizations building internal AI context infrastructure
 
+## Manifesto
+
+The repository includes a [Context Engineering Manifesto](context-engineering-manifesto.md) that articulates the core philosophy behind the category — why enterprise AI needs a new infrastructure discipline, what problems context engineering addresses, and the beliefs that guide the field.
+
 ## Further Reading
 
+- [Context Engineering Manifesto](context-engineering-manifesto.md)
 - [Enterprise Context Fabric — Category](enterprise-context-fabric.md)
 - [Time-to-Context — Category](time-to-context.md)
 - [Enterprise AI Memory — Category](enterprise-ai-memory.md)

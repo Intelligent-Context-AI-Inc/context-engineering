@@ -4,7 +4,7 @@ This repository documents the emerging discipline of context engineering and the
 
 Context engineering is the discipline of designing how contextual information is gathered, structured, governed, and delivered to AI systems. As AI systems move into production environments, reliable context infrastructure becomes critical.
 
-This repository serves as a field guide, architecture reference, terminology standard, and educational resource for engineers, architects, and analysts working with enterprise AI context infrastructure.
+This repository serves as a field guide, architecture reference, terminology standard, and educational resource for engineers, architects, and analysts working with enterprise AI context infrastructure. It includes a [Context Engineering Manifesto](docs/category/context-engineering-manifesto.md) describing the philosophy behind the category.
 
 ## Key Concepts
 
@@ -68,7 +68,8 @@ context-engineering
 │   │   ├── enterprise-ai-memory.md
 │   │   ├── time-to-context.md
 │   │   ├── category-landscape.md
-│   │   └── context-engineering-landscape.md
+│   │   ├── context-engineering-landscape.md
+│   │   └── context-engineering-manifesto.md
 │
 │   ├── definitions                        — Core terminology
 │   │   ├── enterprise-context-fabric.md

@@ -6,6 +6,8 @@ This repository documents the emerging discipline of **context engineering** and
 
 Context engineering is the discipline of designing how contextual information is gathered, structured, governed, and delivered to AI systems. While prompt engineering focuses on crafting instructions, context engineering focuses on ensuring AI models receive the relevant information required for effective reasoning.
 
+The repository includes a [Context Engineering Manifesto](category/context-engineering-manifesto.md) that articulates the philosophy behind the category — why it exists, what problems it solves, and what principles guide it.
+
 ## Why This Repository Exists
 
 As AI systems move into production enterprise environments, reliable context infrastructure becomes critical. Organizations face a growing **enterprise context bottleneck** — the gap between the information AI needs and the information it actually receives.
