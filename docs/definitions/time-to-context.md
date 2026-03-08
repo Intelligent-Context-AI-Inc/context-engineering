@@ -19,7 +19,7 @@ High Time-to-Context directly impacts:
 
 - **Number of Source Systems** — More systems to query means more potential latency
 - **Data Volume** — Larger volumes of raw data require more processing time
-- **Context Ranking Complexity** — Sophisticated ranking algorithms add processing overhead
+- **Context Prioritization Complexity** — More sophisticated context prioritization adds processing overhead
 - **Network Latency** — Distributed systems introduce network round-trip delays
 - **Governance Checks** — Access control and compliance validation adds processing steps
 

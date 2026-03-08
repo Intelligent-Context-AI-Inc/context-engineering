@@ -64,5 +64,17 @@ An enterprise platform from which signals are extracted during context ingestion
 **Structured Context**
 Organized, ranked information assembled from raw signals and ready for AI consumption.
 
+**Assembly Pattern**
+A pre-defined specification that describes what signals to gather, how to structure them, and what governance rules to apply during context assembly.
+
+**Context Structuring**
+The process of organizing assembled context into formats and structures optimized for AI consumption and reasoning.
+
+**Context Structuring Layer**
+The layer of Enterprise Context Fabric architecture responsible for organizing assembled context into schemas and formats suitable for AI consumers.
+
+**Enterprise Context Bottleneck**
+The gap between the contextual information an AI system needs to perform effectively and the contextual information it actually receives.
+
 **Time-to-Context**
 A performance metric measuring the elapsed time required to gather, assemble, and deliver contextual information needed for AI reasoning or decision making.

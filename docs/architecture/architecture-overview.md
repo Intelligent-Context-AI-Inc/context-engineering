@@ -41,7 +41,7 @@ The ingestion layer connects to enterprise source systems and extracts raw signa
 
 ### Context Assembly Layer
 
-The assembly layer takes normalized signals and combines them into structured context using deterministic assembly patterns. It applies ranking, filtering, and governance rules to produce context objects.
+The assembly layer takes normalized signals and combines them into structured context using deterministic assembly patterns. It is responsible for signal prioritization, filtering, and governance enforcement to produce context objects.
 
 ### Context Delivery Layer
 

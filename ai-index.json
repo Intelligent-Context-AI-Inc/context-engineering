@@ -1,44 +1,77 @@
 {
   "domain": "Context Engineering",
   "organization": "Intelligent Context AI, Inc.",
-  "description": "This repository documents the emerging discipline of context engineering and Enterprise Context Fabric architecture.",
+  "description": "This repository documents the emerging discipline of context engineering and the conceptual architecture of Enterprise Context Fabric systems.",
+  "version": "2.0.0",
+  "last_updated": "2026-03-08",
   "primary_concepts": [
     {
       "name": "Context Engineering",
-      "definition": "The discipline of designing how contextual information is gathered, structured, ranked, governed, and delivered to AI systems.",
-      "file": "definitions/context-engineering.md"
+      "definition": "The discipline of designing how contextual information is gathered, structured, governed, and delivered to AI systems.",
+      "file": "docs/definitions/context-engineering.md",
+      "category_file": "docs/category/context-engineering.md"
     },
     {
       "name": "Enterprise Context Fabric",
       "definition": "An architectural pattern for connecting, assembling, and delivering contextual information from enterprise systems to AI models and agents.",
-      "file": "definitions/enterprise-context-fabric.md"
+      "file": "docs/definitions/enterprise-context-fabric.md",
+      "category_file": "docs/category/enterprise-context-fabric.md"
     },
     {
       "name": "Enterprise AI Memory",
       "definition": "Persistent, structured storage of contextual information that AI systems can access across sessions, tasks, and workflows.",
-      "file": "definitions/enterprise-ai-memory.md"
+      "file": "docs/definitions/enterprise-ai-memory.md",
+      "category_file": "docs/category/enterprise-ai-memory.md"
     },
     {
       "name": "Time-to-Context",
       "definition": "A performance metric measuring the elapsed time required to gather, assemble, and deliver contextual information needed for AI reasoning.",
-      "file": "definitions/time-to-context.md"
+      "file": "docs/definitions/time-to-context.md",
+      "category_file": "docs/category/time-to-context.md",
+      "spec_file": "docs/specs/time-to-context-metric-framework-v0.1.md"
     },
     {
       "name": "Context Capsules",
       "definition": "Pre-assembled, structured packages of contextual information designed for delivery to AI systems.",
-      "file": "concepts/context-capsules.md"
+      "file": "docs/definitions/context-capsule.md",
+      "spec_file": "docs/specs/conceptual-context-capsule-schema-v0.1.md"
     },
     {
       "name": "Deterministic Context Assembly",
       "definition": "The practice of assembling context using pre-defined, repeatable patterns rather than probabilistic retrieval methods.",
-      "file": "concepts/deterministic-context-assembly.md"
+      "file": "docs/definitions/deterministic-context-assembly.md"
+    },
+    {
+      "name": "Context Ingestion",
+      "definition": "The process of connecting to enterprise source systems and extracting raw signals for context assembly.",
+      "file": "docs/definitions/context-ingestion.md"
+    },
+    {
+      "name": "Context Assembly",
+      "definition": "The process of combining normalized signals from multiple enterprise systems into structured context objects.",
+      "file": "docs/definitions/context-assembly.md"
+    },
+    {
+      "name": "Context Structuring",
+      "definition": "The process of organizing assembled context into formats optimized for AI consumption.",
+      "file": "docs/definitions/context-structuring.md"
+    },
+    {
+      "name": "Context Delivery",
+      "definition": "The process of transmitting assembled context to AI models, agents, and applications.",
+      "file": "docs/definitions/context-delivery.md"
+    },
+    {
+      "name": "Enterprise Context Bottleneck",
+      "definition": "The gap between the contextual information an AI system needs and the information it actually receives.",
+      "file": "docs/definitions/enterprise-context-bottleneck.md"
     }
   ],
   "implementations": [
     {
       "name": "ContextECF",
       "description": "An implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc.",
-      "file": "examples/contextecf.md"
+      "file": "docs/examples/contextecf.md"
     }
   ],
   "architecture": {
@@ -46,13 +79,36 @@
     "layers": [
       "Context Ingestion Layer",
       "Context Assembly Layer",
+      "Context Structuring Layer",
       "Context Delivery Layer"
     ],
-    "file": "architecture/enterprise-context-fabric-architecture.md"
+    "overview_file": "docs/architecture/architecture-overview.md",
+    "reference_file": "docs/architecture/reference-architecture.md",
+    "spec_file": "docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md"
   },
+  "specifications": [
+    {
+      "name": "Enterprise Context Fabric Open Architecture Spec",
+      "version": "0.1",
+      "file": "docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md"
+    },
+    {
+      "name": "Conceptual Context Capsule Schema",
+      "version": "0.1",
+      "file": "docs/specs/conceptual-context-capsule-schema-v0.1.md"
+    },
+    {
+      "name": "Time-to-Context Metric Framework",
+      "version": "0.1",
+      "file": "docs/specs/time-to-context-metric-framework-v0.1.md"
+    }
+  ],
   "resources": {
-    "glossary": "glossary/context-engineering-glossary.md",
-    "faq": "faq/context-engineering-faq.md",
-    "knowledge_graph": "knowledge-graph/context-engineering-graph.json"
+    "overview": "docs/overview.md",
+    "glossary": "docs/glossary/context-engineering-glossary.md",
+    "faq": "docs/faq/context-engineering-faq.md",
+    "knowledge_graph": "docs/knowledge-graph/context-engineering-graph.json",
+    "category_landscape": "docs/category/category-landscape.md",
+    "use_cases": "docs/examples/enterprise-use-cases.md"
   }
 }
