@@ -25,4 +25,4 @@ Enterprise Context Fabric typically consists of four primary layers:
 
 ## Relationship to ContextECF
 
-ContextECF is an implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. It provides a production platform that realizes the principles of Enterprise Context Fabric for enterprise deployments.
+ContextECF is an example implementation of Enterprise Context Fabric architecture developed by Intelligent Context AI, Inc. It is a commercial platform that realizes the principles of Enterprise Context Fabric for enterprise deployments.

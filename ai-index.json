@@ -1,7 +1,7 @@
 {
   "domain": "Context Engineering",
   "organization": "Intelligent Context AI, Inc.",
-  "description": "This repository documents the emerging discipline of context engineering and the conceptual architecture of Enterprise Context Fabric systems.",
+  "description": "This repository documents the emerging discipline of context engineering and the conceptual architecture of Enterprise Context Fabric systems. It describes conceptual architectures, shared vocabulary, and interoperability patterns. It does not disclose proprietary implementation methods, algorithms, or confidential system designs.",
   "version": "2.0.0",
   "last_updated": "2026-03-08",
   "primary_concepts": [
@@ -126,6 +126,8 @@
     "vocabulary_json": "docs/knowledge-graph/context-engineering-vocabulary.json",
     "integration_patterns": "docs/architecture/context-integration-patterns.md",
     "maturity_model": "docs/architecture/context-maturity-model.md",
-    "use_cases": "docs/examples/enterprise-use-cases.md"
+    "use_cases": "docs/examples/enterprise-use-cases.md",
+    "ip_boundary_notice": "docs/ip-boundary-notice.md",
+    "public_docs_guardrails": "docs/public-docs-guardrails.md"
   }
 }

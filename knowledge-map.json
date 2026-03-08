@@ -157,6 +157,8 @@
     "knowledge_graph": [
       "docs/knowledge-graph/context-engineering-graph.json",
       "docs/knowledge-graph/context-engineering-vocabulary.json",
+      "docs/knowledge-graph/context-engineering-ontology.json",
+      "docs/knowledge-graph/context-engineering-ontology.md",
       "docs/knowledge-graph/canonical-relationships.md"
     ],
     "examples": [

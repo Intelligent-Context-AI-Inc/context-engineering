@@ -11,7 +11,7 @@
 
 This specification defines a conceptual architecture for Enterprise Context Fabric systems. It describes the logical capabilities, architectural principles, and expected behaviors that a compliant implementation should support.
 
-This is an open conceptual framework intended to support interoperability, shared vocabulary, and architectural alignment across the emerging context engineering ecosystem. It is not a proprietary design document.
+This is an open conceptual framework intended to support interoperability, shared vocabulary, and architectural alignment across the emerging context engineering ecosystem. It is not a proprietary design document. This specification does not disclose proprietary implementation methods, internal optimization routines, scoring algorithms, or other confidential system designs. Nothing in this specification grants rights to any patented or patent-pending implementation of these concepts.
 
 ## 2. Scope
 
