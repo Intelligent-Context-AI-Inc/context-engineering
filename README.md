@@ -43,6 +43,7 @@ These documents provide a conceptual reference architecture for the context engi
 - [Open Architecture Spec v0.1](docs/specs/enterprise-context-fabric-open-architecture-spec-v0.1.md) — Conceptual architecture specification
 - [Context Capsule Schema v0.1](docs/specs/conceptual-context-capsule-schema-v0.1.md) — Illustrative schema for Context Capsules
 - [Time-to-Context Framework v0.1](docs/specs/time-to-context-metric-framework-v0.1.md) — Metric framework for measuring context delivery performance
+- [Time-to-Context Benchmark Framework](docs/specs/time-to-context-benchmark-framework.md) — Conceptual benchmark framework for evaluating context delivery performance
 
 ## Example Implementation
 
@@ -126,7 +127,8 @@ context-engineering
 │   └── specs                              — Conceptual specifications
 │       ├── enterprise-context-fabric-open-architecture-spec-v0.1.md
 │       ├── conceptual-context-capsule-schema-v0.1.md
-│       └── time-to-context-metric-framework-v0.1.md
+│       ├── time-to-context-metric-framework-v0.1.md
+│       └── time-to-context-benchmark-framework.md
 ```
 
 ## Canonical Vocabulary

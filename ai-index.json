@@ -109,6 +109,11 @@
       "name": "Time-to-Context Metric Framework",
       "version": "0.1",
       "file": "docs/specs/time-to-context-metric-framework-v0.1.md"
+    },
+    {
+      "name": "Time-to-Context Benchmark Framework",
+      "version": "0.1",
+      "file": "docs/specs/time-to-context-benchmark-framework.md"
     }
   ],
   "resources": {

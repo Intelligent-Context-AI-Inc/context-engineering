@@ -54,5 +54,6 @@ The repository includes a [Context Engineering Manifesto](context-engineering-ma
 - [Context Engineering Manifesto](context-engineering-manifesto.md)
 - [Enterprise Context Fabric — Category](enterprise-context-fabric.md)
 - [Time-to-Context — Category](time-to-context.md)
+- [Time-to-Context Benchmark Framework](../specs/time-to-context-benchmark-framework.md)
 - [Enterprise AI Memory — Category](enterprise-ai-memory.md)
 - [Category Landscape](category-landscape.md)

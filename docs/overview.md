@@ -60,6 +60,7 @@ See [Context Engineering Principles](principles/context-engineering-principles.m
 - **Visualizing the stack?** See the [stack diagram](architecture/context-engineering-stack-diagram.md) for a visual representation of the conceptual architecture
 - **Understanding the capsule lifecycle?** See the [Context Capsule Lifecycle](architecture/context-capsule-lifecycle.md) for the stages from enterprise signals to AI consumption
 - **Mapping the ecosystem?** See the [Context Engineering Landscape](category/context-engineering-landscape.md) for an ecosystem map organizing the technology categories around context infrastructure
+- **Benchmarking context delivery?** See the [Time-to-Context Benchmark Framework](specs/time-to-context-benchmark-framework.md) for a conceptual benchmark framework with measurement dimensions and reference scenarios
 - **Comparing to adjacent tech?** Review the [context engineering stack](architecture/context-engineering-stack.md) for comparisons with RAG, vector databases, and knowledge graphs
 - **Assessing maturity?** See the [Context Maturity Model](architecture/context-maturity-model.md) for a progression framework from ad-hoc retrieval to federated enterprise context
 - **Looking for definitions?** Browse the [definitions](definitions/) directory or the [canonical vocabulary](glossary/context-engineering-canonical-vocabulary.md)
