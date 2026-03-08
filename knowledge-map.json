@@ -1,0 +1,105 @@
+{
+  "field": "Context Engineering",
+  "maintainer": "Intelligent Context AI, Inc.",
+  "version": "1.0.0",
+  "last_updated": "2026-03-08",
+  "summary": "Context engineering is the discipline of designing how contextual information is gathered, structured, ranked, governed, and delivered to AI systems. This knowledge map describes the core concepts, their relationships, and key implementations.",
+  "taxonomy": {
+    "discipline": {
+      "name": "Context Engineering",
+      "description": "The overarching discipline concerned with context for AI systems"
+    },
+    "architecture": {
+      "name": "Enterprise Context Fabric",
+      "description": "The architectural pattern that implements context engineering at enterprise scale",
+      "layers": [
+        {
+          "name": "Context Ingestion Layer",
+          "description": "Connects to source systems and extracts signals",
+          "file": "architecture/context-assembly-layer.md"
+        },
+        {
+          "name": "Context Assembly Layer",
+          "description": "Structures, ranks, and combines signals into context objects",
+          "file": "architecture/context-assembly-layer.md"
+        },
+        {
+          "name": "Context Delivery Layer",
+          "description": "Delivers assembled context to AI systems",
+          "file": "architecture/context-delivery-layer.md"
+        }
+      ]
+    },
+    "key_concepts": [
+      {
+        "name": "Context Capsules",
+        "category": "delivery",
+        "description": "Structured packages for delivering context to AI systems"
+      },
+      {
+        "name": "Deterministic Context Assembly",
+        "category": "assembly",
+        "description": "Repeatable, pattern-based context assembly"
+      },
+      {
+        "name": "Enterprise AI Memory",
+        "category": "persistence",
+        "description": "Durable storage of context across sessions and workflows"
+      },
+      {
+        "name": "Time-to-Context",
+        "category": "metrics",
+        "description": "Performance metric for context delivery latency"
+      },
+      {
+        "name": "Context Ingestion",
+        "category": "ingestion",
+        "description": "Extraction and normalization of signals from source systems"
+      },
+      {
+        "name": "Context Delivery",
+        "category": "delivery",
+        "description": "Transmission of assembled context to AI consumers"
+      }
+    ],
+    "implementations": [
+      {
+        "name": "ContextECF",
+        "relationship": "implements Enterprise Context Fabric",
+        "developer": "Intelligent Context AI, Inc."
+      }
+    ]
+  },
+  "file_index": {
+    "definitions": [
+      "definitions/context-engineering.md",
+      "definitions/enterprise-context-fabric.md",
+      "definitions/enterprise-ai-memory.md",
+      "definitions/time-to-context.md"
+    ],
+    "concepts": [
+      "concepts/context-capsules.md",
+      "concepts/deterministic-context-assembly.md",
+      "concepts/context-ingestion.md",
+      "concepts/context-delivery.md"
+    ],
+    "architecture": [
+      "architecture/enterprise-context-fabric-architecture.md",
+      "architecture/context-assembly-layer.md",
+      "architecture/context-delivery-layer.md"
+    ],
+    "knowledge_graph": [
+      "knowledge-graph/context-engineering-graph.json",
+      "knowledge-graph/relationships.md"
+    ],
+    "examples": [
+      "examples/contextecf.md"
+    ],
+    "glossary": [
+      "glossary/context-engineering-glossary.md"
+    ],
+    "faq": [
+      "faq/context-engineering-faq.md"
+    ]
+  }
+}
